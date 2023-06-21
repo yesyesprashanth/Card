@@ -1,0 +1,35 @@
+.vectorIcon {
+  position: relative;
+  width: 22.83px;
+  height: 22.83px;
+}
+.free1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-sansation);
+  color: var(--color-white);
+  text-align: center;
+}
+.free,
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+.free {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-3xs);
+  background-color: var(--color-green);
+  border-radius: var(--br-3xl);
+  width: 52px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  align-self: stretch;
+  padding: 0 var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: space-between;
+}
